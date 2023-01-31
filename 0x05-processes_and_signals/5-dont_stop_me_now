@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Stop infinity and beyound
+
+kill -9 `pidof -s 4-to_infinity_and_beyond`
