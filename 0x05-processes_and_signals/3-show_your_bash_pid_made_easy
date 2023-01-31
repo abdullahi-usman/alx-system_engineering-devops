@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Display pid of each process with bash
+
+echo $$
