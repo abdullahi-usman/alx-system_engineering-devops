@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This is a bash while loop with time
+hour=0
+minute=60
+while [[ $hour -le 12 ]]; do
+	
+	if [[ $minute -eq 60 ]]; then
+		echo "Hour $hour"
+		minute=1
+		hour=$((hour + 1))
+	else
+		echo "$minute"
+		minute=$((minute + 1))
+	fi
+done
