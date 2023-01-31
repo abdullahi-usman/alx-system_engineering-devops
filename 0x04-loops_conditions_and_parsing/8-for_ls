@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# For loop listing files in current folder with ls
+
+for file in `ls`; do
+	echo ${file##*-};
+done
