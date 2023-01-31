@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# This is a bash for loop
 i=1
 for (( ; ; )); do
 	echo "Best School"
